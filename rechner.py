@@ -7,3 +7,7 @@ variable2 = int(input))
 time.sleep(1)
 
 print(variable1 + variable2)
+
+time.sleep(5)
+
+exit
