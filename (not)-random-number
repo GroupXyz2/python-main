@@ -1,0 +1,15 @@
+import time
+
+variable1 = int(input("Gebe eine Zahl ein: "))
+variable2 = int(input("Gebe noch eine Zahl ein: "))
+variable3 = variable1 / variable2
+variable1 = variable3 * variable1
+variable2 = variable3 - variable2
+variable4 = variable1 + variable2
+
+time.sleep(1)
+
+print(variable3 + variable4)
+
+time.sleep(3)
+
